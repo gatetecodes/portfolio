@@ -1,0 +1,17 @@
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+.project-tags {
+  padding: 0;
+  display: flex;
+  .project-tag {
+    margin-bottom: 0;
+    padding: 0.3rem;
+    background: #c0c5cb;
+    margin: 10px 10px 10px 0;
+    cursor: pointer;
+    color: var(--primary-color);
+  }
+}

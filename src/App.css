@@ -1,0 +1,308 @@
+:root {
+  --primary-color: #2d3e50;
+}
+
+body {
+  background: #f1f5f8;
+  margin: 0;
+  font-family: 'Gotham Narrow', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.header,
+.page-header {
+  height: 30vh;
+  text-align: center;
+  /* border-bottom: 3px solid #d5d8dc; */
+}
+.header .img-wrapper {
+  display: block;
+  width: 80px;
+  height: 80px;
+  background: #eee;
+  margin: 0 auto;
+  border: 7px solid var(--primary-color);
+  vertical-align: center;
+  padding: 10px;
+  border-radius: 50%;
+}
+.header .img-wrapper img {
+  width: 80px;
+  border-radius: 50%;
+}
+.top-links {
+  display: none;
+}
+
+.header nav,
+.page-header nav {
+  width: 40%;
+  margin: 20px auto;
+}
+
+.header nav ul,
+.page-header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background: transparent;
+  padding: 0;
+}
+
+.header nav ul a,
+.page-header nav ul a {
+  color: #444;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 2em;
+}
+.skills-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 2em;
+  background: #c0c5cb;
+}
+
+.header .my-name,
+.page-header .my-name {
+  font-family: 'Gotham Black', sans-serif;
+  font-weight: 900;
+  font-size: 1.5em;
+  letter-spacing: -0.05em;
+  color: var(--primary-color);
+  margin: 0;
+}
+
+.header .my-title,
+.page-header .my-title {
+  font-family: 'Gotham', sans-serif;
+  font-size: 0.8em;
+  color: var(--primary-color);
+  font-weight: 100;
+  margin-top: 0;
+}
+
+.main-section {
+  background: var(--primary-color);
+  padding: 2em 0.8em;
+}
+
+.footer-section {
+  background: #abb2b9;
+  padding: 3em;
+}
+
+.footer-section .footer-col {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% auto;
+  grid-template-columns: 30% auto;
+  margin-bottom: 2em;
+}
+
+.footer-section .footer-col .footer-icon {
+  width: 50px;
+}
+
+.footer-section .footer-col .footer-icon img {
+  width: 50px;
+}
+
+.footer-section .footer-col .footer-info {
+  color: var(--primary-color);
+  font-family: 'Gotham Narrow Bold';
+}
+
+.footer-section .footer-col .footer-info a {
+  color: var(--primary-color);
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.footer-section .footer-col p {
+  margin: 0 0 10px 0;
+}
+
+.content-section {
+  padding: 3em;
+}
+
+.content-section .my-intro {
+  font-size: 1.3em;
+  text-align: center;
+  margin-bottom: 3em;
+  font-weight: 300;
+  color: var(--primary-color);
+}
+
+.content-section h2 {
+  font-family: 'Gotham Narrow Black', sans-serif;
+  color: var(--primary-color);
+  font-size: 2em;
+  margin-top: 0;
+}
+
+.content-section .about-me {
+  color: #444;
+}
+
+.content-section li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.content-section li img {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  padding: 0.8em 1.2em;
+  margin: 1.2em 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    height: 30vh;
+  }
+  .header .img-wrapper {
+    display: block;
+    width: 140px;
+    height: 140px;
+    background: #eee;
+    margin: 0 auto;
+    border: 8px solid var(--primary-color);
+    vertical-align: center;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  .top-links {
+    display: block;
+  }
+  .header .my-name,
+  .page-header .my-name {
+    font-size: 3em;
+  }
+  .header .my-title,
+  .page-header .my-title {
+    font-size: 1.5em;
+  }
+  .header .img-wrapper img {
+    width: 140px;
+    border-radius: 50%;
+  }
+  .header nav,
+  .page-header nav {
+    width: 20%;
+  }
+  .page-header {
+    height: 30vh;
+  }
+  .page-header .img-wrapper {
+    display: block;
+    width: 140px;
+    height: 140px;
+    background: #eee;
+    margin: 0 auto;
+    border: 8px solid var(--primary-color);
+    vertical-align: center;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  .page-header .img-wrapper img {
+    width: 140px;
+    border-radius: 50%;
+  }
+  .page-header .page-title {
+    font-size: 3em;
+    font-family: 'Gotham Black', sans-serif;
+    color: var(--primary-color);
+    letter-spacing: -0.05em;
+  }
+  .main-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .main-section .featured-box {
+    width: 18%;
+    margin-top: -8em;
+    padding: 1.5em;
+  }
+  .main-section .featured-box img {
+    margin-bottom: 1em;
+  }
+  .footer-section .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .footer-section .container .footer-col {
+    width: 25%;
+  }
+
+  .content-section .container {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .content-section .container .about-me {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .content-section .container .about-me .my-background {
+    width: 40%;
+    color: #333;
+  }
+  .content-section .container .about-me .my-background p {
+    line-height: 1.5;
+  }
+  .content-section .container .about-me .skills {
+    width: 50%;
+  }
+  .content-section .container .about-me .skills .skills-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background: #c0c5cb;
+    border-radius: 5px;
+  }
+  .header .my-name,
+  .page-header .my-name {
+    margin-top: 0.3em;
+  }
+}
+/*# sourceMappingURL=main.css.map */

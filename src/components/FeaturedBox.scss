@@ -1,0 +1,41 @@
+.featured-box {
+  background: #ffffff;
+  width: 65%;
+  text-align: center;
+  //   border: 2px solid #e9eff4;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  margin: 0 auto 2em;
+  padding: 2em;
+  display: block;
+  text-decoration: none;
+  &:hover {
+    background: #abb2b9;
+    h1,
+    p {
+      color: white;
+    }
+  }
+}
+.featured-box img {
+  width: 50%;
+  display: inline-block;
+  color: var(--primary-color);
+  margin-bottom: 1.5em;
+}
+
+.featured-box h1 {
+  display: block;
+  text-decoration: none;
+  font-family: 'Gotham Narrow Black', sans-serif;
+  color: var(--primary-color);
+  font-size: 2em;
+  margin: 0;
+
+  letter-spacing: -0.05em;
+}
+
+.featured-box p {
+  color: #617d98;
+  font-size: 1.2em;
+  margin: 0;
+}

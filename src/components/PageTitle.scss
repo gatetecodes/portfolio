@@ -1,0 +1,20 @@
+.page-title {
+  text-align: center;
+  position: relative;
+  margin: 2rem 0 8rem 0;
+  color: var(--primary-color);
+  .my-name {
+    font-family: 'Gotham Narrow Black', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    letter-spacing: -2px;
+    // text-shadow: 1px 0 0 rgba(50, 57, 66, 0.9),
+    //   -4px -5px 0 rgba(0, 133, 255, 0.03);
+    margin: 0;
+  }
+  .my-title {
+    font-family: 'Gotham Book', sans-serif;
+    margin: 0;
+    font-size: 1.2rem;
+  }
+}
